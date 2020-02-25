@@ -1,8 +1,3 @@
-/**
-@author: wei.xuan
-@time: 2020/2/25 22:04
-@desc:
-*/
 package routers
 
 import (
@@ -11,6 +6,7 @@ import (
 	"github.com/labstack/echo/v4"
 )
 
+// Register all
 func Register(echo *echo.Echo) {
 	echo.GET("/", home)
 	echo.GET("/ping", ping)
