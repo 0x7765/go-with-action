@@ -1,9 +1,10 @@
-name: Go
+name: Build
 on: 
   push:
     branches: 
       - master
       - release/*
+
 jobs:
 
   lint:
